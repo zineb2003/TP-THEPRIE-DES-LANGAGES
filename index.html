@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Théorie Des Langages</title>
+</head>
+
+<body>
+  <nav>
+    <div class="nav nav-tabs" id="nav-tab" role="tablist" style="width:100% ;">
+      <a class="nav-item nav-link show active " id="nav-page-de-garde-tab" data-toggle="tab" href="#nav-page-de-garde" role="tab" aria-controls="nav-home" aria-selected="false">Page de garde</a>
+      <a class="nav-item nav-link " id="nav-partie1-tab" data-toggle="tab" href="#nav-partie1" role="tab" aria-controls="nav-home" aria-selected="false">Partie 1</a>
+      <a class="nav-item nav-link " id="nav-partie2-tab" data-toggle="tab" href="#nav-partie2" role="tab" aria-controls="nav-profile" aria-selected="false">Partie 2</a>
+      <a class="nav-item nav-link " id="nav-partie3-tab" data-toggle="tab" href="#nav-partie3" role="tab" aria-controls="nav-contact" aria-selected="false">Partie 3</a>
+    </div>
+
+    <div class="tab-content" id="nav-tabContent">
+      <div class="tab-pane fade divider" id="nav-page-de-garde" role="tabpanel" aria-labelledby="nav-page-de-garde-tab">
+        <div></div>
+      </div>
+      <div class="tab-pane fade divider" id="nav-partie1" role="tabpanel" aria-labelledby="nav-partie1-tab">
+        <div class="partie1"></div>
+      </div>
+      <div class="tab-pane fade divider" id="nav-partie2" role="tabpanel" aria-labelledby="nav-partie2-tab">
+        <div class="partie2"></div>
+      </div>
+      <div class="tab-pane fade divider" id="nav-partie3" role="tabpanel" aria-labelledby="nav-partie3-tab">
+        <div class="partie3"></div>
+      </div>
+    </div>
+  </nav>
+
+  <h2 id="partie" class="main-title">Théorie Des Languages</h2>
+
+  <!-- container for inputs and texts -->
+  <div id="enonce">
+    <h4>Membres :</h4>
+    <ul class="membre">
+      <li>
+        <pre>Guerramou Zineb          Groupe 3</pre>
+      </li>
+      <li>
+        <pre>Touil Fadia     Groupe 3</pre>
+      </li>
+      <li>
+        <pre>Djedaa Soumia          Groupe 3</pre>
+      </li>
+      <li>
+        <pre>Agueni Chaima          Groupe 2</pre>
+      </li>
+    </ul>
+    <h4>Enseignant:</h4>
+    <ul class="enseignant">
+      <li>
+        <pre>Mme Baghli</pre>
+      </li>
+  </div>
+  <!--Container for the error messages-->
+  <div id="alert-container"></div>
+
+  <!--Container for the Outputs-->
+  <div id="output-area"></div>
+
+  <script src="tp.js"></script>
+</body>
+
+</html>
