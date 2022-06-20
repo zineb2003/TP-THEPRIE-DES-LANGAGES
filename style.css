@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-shadow: 0px 10px -15px -15px #00ffff;
+}
+
+body {
+  height: 100vh;
+  /* background-image: url("https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+*/
+}
+
+.inverted-border-radius {
+  height: 100px;
+  width: 325px;
+  background-color: #48d1cc;
+  border-radius: 30px 30px 30px 0;
+}
+
+.inverted-border-radius::before {
+  background-color: transparent;
+  bottom: -50px;
+  height: 50px;
+  width: 25px;
+  border-top-left-radius: 25px;
+  box-shadow: 0 -25px 0 0 #ffb6c1;
+}
+
+.button-color-control {
+  background-color: #99ccff;
+  border-color: #66b2ff;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #08081a;
+  box-shadow: 10px 5px 5px blue;
+}
+
+#nav-page-de-garde-tab {
+  border-radius: 15px 15px 0px 0px;
+  box-shadow: #blue 5px 5px 2px -2px;
+}
+#nav-partie1-tab {
+  border-radius: 15px 15px 0px 0px;
+  box-shadow: #blue 5px 5px 2px -2px;
+}
+#nav-partie2-tab {
+  border-radius: 15px 15px 0px 0px;
+  box-shadow: #blue 5px 5px 2px -2px;
+}
+#nav-partie3-tab {
+  border-radius: 15px 15px 0px 0px;
+  box-shadow: #blue 5px 5px 2px -2px;
+}
+/*
+rounded corners for selceted tab 
+tab separations 
+tabline 
+*/
+nav a {
+  color: white;
+}
+
+.main-title {
+  text-align: reight;
+  height: 105px;
+  padding-top: 45px;
+}
+
+#enonce {
+  background-color: rgba(100, 149, 237, 0.9);
+  padding: 30px;
+  border-radius: 30px;
+  margin: 10px;
+}
+
+ul,
+ul > li {
+  font-size: large;
+  padding: 4px;
+  text-align: left;
+  list-style: square;
+}
+pre {
+  color: black;
+}
+
+h4 {
+  text-align: left;
+}
+
+footer {
+  background-color: #66b2ff;
+  color: #ccffff;
+  width: 100%;
+  bottom: 0;
+}
